@@ -1,0 +1,14 @@
+[package]
+name = "cutsites"
+version = "0.1.0"
+authors = ["mattlawlor <matt.a.lawlor@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ngslib = {git = "https://github.com/mal2017/ngslib.git", tag = "0.1.0-alpha.2"}
+bio = "*"
+rust-htslib ="*"
+clap = {version = "~2.32.0", features = ["yaml"]}
+bio-types = "*"
+itertools = "0.8.0"
+rayon = "1.0"
